@@ -8,4 +8,4 @@ order: 4
 > 如果你有什么话想说与我听，欢迎与我联系: luocangli@outlook.com
 
 
-<audio controls frameborder="no" border="0" marginwidth="0" marginheight="0" width=430 height=86 src="assets/audio/welcome.wav">
+<audio controls frameborder="no" border="0" marginwidth="0" marginheight="0" width=430 height=86 src="/sentence.wav">
