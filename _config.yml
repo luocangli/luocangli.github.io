@@ -95,7 +95,7 @@ theme_mode: # [light | dark]
 # will be added to all media resources (site avatar, posts' images, audio and video files) paths starting with '/'
 #
 # e.g. 'https://cdn.com'
-cdn:
+cdn: 'https://cdn.jsdelivr.net/gh/luocangli/luocangli.github.io@main'
 
 # the avatar on sidebar, support local or CORS resources
 avatar: /assets/img/favicons/apple-touch-icon.png
@@ -118,11 +118,11 @@ comments:
     repo: # <gh-username>/<repo>
     issue_term: # < url | pathname | title | ...>
   # Giscus options › https://giscus.app
-  giscus:
-    repo: # <gh-username>/<repo>
-    repo_id:
-    category:
-    category_id:
+  giscus: 
+    repo: luocangli/luocangli.github.io.discussions # <gh-username>/<repo>
+    repo_id: R_kgDONRBDgQ
+    category: General
+    category_id: DIC_kwDONRBDgc4CkXR4
     mapping: # optional, default to 'pathname'
     strict: # optional, default to '0'
     input_position: # optional, default to 'bottom'
