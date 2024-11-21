@@ -85,16 +85,30 @@
     }
 
     {%- comment -%}
-      Notify another plugins that the theme mode has changed
+    Notify another plugins that the theme mode has changed
     {%- endcomment -%}
     notify() {
       window.postMessage(
-        {
-          direction: ModeToggle.ID,
-          message: this.modeStatus
-        },
-        '*'
+      {
+        direction: ModeToggle.ID,
+        message: this.modeStatus
+      },
+      '*'
       );
+
+      const giscusIframe = document.querySelector('iframe.giscus-frame');
+      if (giscusIframe) {
+        giscusIframe.contentWindow.postMessage(
+        {
+          giscus: {
+            setConfig: {
+              theme: this.modeStatus === ModeToggle.DARK_MODE ? 'dark' : 'light',
+            },
+          },
+        },
+        'https://giscus.app'
+        );
+      }
     }
 
     flipMode() {
