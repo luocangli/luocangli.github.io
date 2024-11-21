@@ -121,8 +121,8 @@ comments:
   giscus:
     repo: luocangli/luocangli.github.io.discussions # <gh-username>/<repo>
     repo_id: R_kgDONRBDgQ
-    category: Announcements
-    category_id: DIC_kwDONRBDgc4CkXR3
+    category: General
+    category_id: DIC_kwDONRBDgc4CkXR4
     mapping: # optional, default to 'pathname'
     strict: # optional, default to '0'
     input_position: # optional, default to 'bottom'
