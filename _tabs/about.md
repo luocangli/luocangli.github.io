@@ -9,4 +9,4 @@ order: 4
 {: .prompt-info }
 
 一曲净化心灵之音，与你同听：
-<audio controls frameborder="no" border="0" marginwidth="0" marginheight="0" width=450 height=100 src="/assets/audio/You Left.mp3">
+<audio controls frameborder="no" border="0" marginwidth="0" marginheight="0" width=450 height=100 src="https://cdn.jsdelivr.net/gh/luocangli/luocangli.github.io.host@main/assets/audio/You Left.mp3">
